@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let z1m1 = ["Задание", z1m2 = 0];
+
+       /* Задание 1*/
+          z1m2++; 
+          alert("Задание" + z1m2);
+          let z1n1= 2;
+          let z1n2 = Number(prompt("Введите число для возведения в степени 2"));
+          alert(z1n2 ** z1n1);
+
+        /*Задание 2*/
+         z1m2++; 
+         alert("Задание" + z1m2);
+         let z2n1 = Number(prompt("Введите первое число"));
+         let z2n2 = Number(prompt("Введите второе число"));
+         let z2n3 = Number((z2n1 + z2n2) / 2);
+                           alert ("Среднее арифметическое значение введеных числел " + z2n3);
+
+      /*  Задание 3*/
+           z1m2++; 
+           alert("Задание" + z1m2);
+           let z3n1 = Number(prompt("Введите длину стороны фигуры квадрат"));
+           let z3n2 = Number(z3n1 ** 2);
+           alert ("Площадь квадрата S = " + z3n2);
+
+       /* Задание 4*/
+          z1m2++; 
+          alert("Задание" + z1m2);
+          let z4n1 = 0.621371;
+          let z4n2 = Number(prompt("Введите рассотояние в - км"));
+          let z4n3 = Number (z4n2 * z4n1);
+          alert ("Расстояние в милях = " + z4n3);
+
+       /* Задание 5*/
+          z1m2++; 
+          alert("Задание" + z1m2);
+          let z5n1 = Number(prompt("Введите первое значение"));
+          let z5n2 = Number(prompt("Введите второе значение"));
+          let z5n3 = Number (z5n1 * z5n2);
+          let z5n4 = Number (z5n1 - z5n2);
+          let z5n5 = Number (z5n1 + z5n2); 
+          alert ("Умонжение Ваших чисел " + z5n3);
+         alert ("Разность Ваших чисел " + z5n4);
+         alert ("Сумма Ваших чисел " + z5n5);
+
+        /* Задание 6*/
+          z1m2++; 
+          alert("Задание" + z1m2);
+          let z6n1 = Number(prompt("Введите значение -a- в выражении a * x + b = 0 "));
+          let z6n2 = Number(prompt("Введите значение -b- в выражении a * x + b = 0 "));
+          let z6n3 = Number (-z6n2 / z6n1);
+          alert ("Значение -x- в выражении a * x + b = 0 равен  " + z6n3);
+        
+         
+       /* Задание 7*/
+        z1m2++;
+        alert("Задание" + z1m2);
+        let z7c1 = 1440;
+        let z7c2 = 60;
+        let z7n1 = Number(prompt("Сколько сейчас часов, ч "));
+        let z7n2 = Number(prompt("Сколько сейчас часов, мин  "));
+        let z7n3 = parseInt((z7c1 - z7n1 * z7c2 - z7n2) / z7c2);
+        let z7n4 = ((z7c1 - z7n1 * z7c2 - z7n2) % z7c2);
+          alert ("До окончания дня осталось " + z7n3 + "ч" + z7n4 + "мин");
+        
+       /* Задание 8*/
+        z1m2++;
+        alert("Задание" + z1m2);
+        let z8c1 = 100, z8c2 = 10; 
+        let z8n1 = Number(prompt("Назовите любое трехзначное число"));
+        let z8n2 = z8n1 % z8c1;
+        let z8n3 = parseInt (z8n2 / z8c2);
+        alert("Вторая цифра вашего числа равна " + z8n3);
+        
+      /*  Задание 9*/
+        z1m2++;
+        alert("Задание" + z1m2);
+        let z9c1 = 10000, z9c2 = 10; 
+        let z9n1 = Number(prompt("Назовите любое пятизначное число"));
+        let z9n3 = z9n1 % z9c2;
+        let z9n4 = parseInt (z9n1 / z9c2);
+        alert("Последняя цифра вашего числа станет первой " + z9n3 + z9n4);
+        
+       /*  Задание 10*/
+        z1m2++;
+        alert("Задание" + z1m2);
+        let z10c1 = 250, z10c2 = 10; 
+        let z10n1 = Number(prompt("Назовите планируемую сумму продаж в $"));
+        let z10n2 = (z10c1 + z10n1 / z10c2);
+        alert("Ваша зарплата составляет " + z10n2 + "$");
+        
+    </script>
+
+</body>
+
+</html>
